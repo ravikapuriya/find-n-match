@@ -1,0 +1,22 @@
+{
+    "name": "phaser3-connect-four",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --config config/vite.config.js",
+        "build": "tsc && vite build --config config/vite.config.js",
+        "preview": "vite preview --config config/vite.config.js"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
+        "@typescript-eslint/parser": "^5.40.0",
+        "eslint": "^8.25.0",
+        "typescript": "^4.6.4",
+        "vite": "5.4.6"
+    },
+    "dependencies": {
+        "@devshareacademy/connect-four": "^0.2.1",
+        "phaser": "^3.55.2"
+    }
+}
